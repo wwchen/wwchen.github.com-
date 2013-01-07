@@ -31,3 +31,11 @@ Now, I haven't exactly figured out what the hell that is, and the documentation 
 which led me to [How I built my blog in one day](http://erjjoines.github.com/blog/How-I-built-my-blog-in-one-day/), which led me to [Jekyll Bootstrap](http://jekyllbootstrap.com/)
 
 And holy hell, the bootstrap is fantastic. Follow through, and you won't be disappointed. Now, my *2013* resolution is to maintain and continually update this blog.
+
+## Helpful links
+Stolen from [Jekyll's GitHub](https://github.com/mojombo/jekyll) readme:
+* Put information on your site with [Template Data](http://wiki.github.com/mojombo/jekyll/template-data)
+* Customize the [Permalinks](http://wiki.github.com/mojombo/jekyll/permalinks) your posts are generated with
+* Use the built-in [Liquid Extensions](http://wiki.github.com/mojombo/jekyll/liquid-extensions) to make your life easier
+* [Markdown syntax](http://daringfireball.net/projects/markdown/syntax)
+* Jekyll Boostrap [quickstart on creating a post with rake](http://jekyllbootstrap.com/usage/jekyll-quick-start.html#2_create_a_post)
