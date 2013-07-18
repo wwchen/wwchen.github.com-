@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="William Chen" />
+    <link href="css/main.css" type="text/css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="css/bootstrap-responsive.min.css" type="text/css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Neuton:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400italic' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>document.documentElement.className = "js"; </script>
+
+    <title>William Chen</title>
+  </head>
+  <body>
+    <!-- Header container -->
+    <header><h1><span>william</span>chen</h1></header>
+<!--
+    <nav>
+      <ul>
+        <li><a href="#">life</a></li>
+        <li><a href="#">brainfart</a></li>
+        <li><a href="#">projects</a></li>
+      </ul>
+    </nav>
+-->
+    <!-- Main content container -->
+    <div id="main">
+      <section id="social">
+        <header><h3>Catch me if you can!</h3></header>
+        <ul style="padding: 0">
+          <li><a href="http://facebook.com/wheee"><img src="imgs/icons/facebook.png" alt="Facebook" /></a></li>
+          <li><a href="http://plus.google.com/105556695757912825233"><img src="imgs/icons/google.png" alt="Google+" /></a></li>
+          <li><a href="http://www.linkedin.com/in/wwchen"><img src="imgs/icons/linkedin.png" alt="LinkedIn" /></a></li>
+          <li><a href="http://twitter.com/wchen"><img src="imgs/icons/twitter.png" alt="Twitter" /></a></li>
+          <li><a href="http://github.com/wwchen"><img src="imgs/icons/github.png" alt="GitHub" /></a></li>
+          <li><a href="http://delicious.com/wchen16"><img src="imgs/icons/delicious.png" alt="Delicious" /></a></li>
+          <li><a href="http://www.flickr.com/photos/william-chen/"><img src="imgs/icons/flickr.png" alt="Flickr" /></a></li>
+          <li><a href="http://www.last.fm/user/wchen"><img src="imgs/icons/lastfm.png" alt="Last.fm" /></a></li>
+          <li><a href="http://www.quora.com/William-Chen-14"><img src="imgs/icons/quora.png" alt="Quora" /></a></li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Footer container -->
+<!--
+    <footer>
+      <p>This is my little footer that says everything here is mine. Allll mineeee, muahahaha</p>
+      <p>If you are a spam or hacker bot, please continue to <a href="file:///dev/null">here</a></p>
+    </footer>
+-->
+
+
+    <script>
+      $('section.workexperience').each( function() {
+        var $section = $(this);
+        var $title = $('hgroup', $section);
+        var $body = $section.children(':not(hgroup)');
+        $body.hide('slow');
+        $title.click( function() {
+          $body.toggle('slow');
+        });
+    
+      });
+    </script>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-251075-12']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
